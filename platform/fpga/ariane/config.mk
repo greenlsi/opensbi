@@ -7,7 +7,6 @@
 
 #for more infos, check out /platform/template/config.mk
 
-PLATFORM_RISCV_XLEN = 64
 
 # Blobs to build
 FW_TEXT_START=0x80000000

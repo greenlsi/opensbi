@@ -10,7 +10,7 @@ PLATFORM_RISCV_XLEN = 64
 
 # Blobs to build
 FW_TEXT_START=0x80000000
-FW_JUMP=n
+FW_JUMP=y
 
 ifeq ($(PLATFORM_RISCV_XLEN), 32)
  # This needs to be 4MB aligned for 32-bit support
